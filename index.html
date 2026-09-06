@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeuroHope - Youth-Led Neurological Advocacy</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeuroHope — Home</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">NeuroHope</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/resources.html">Resources</a></li>
-                <li><a href="pages/stories.html">Stories</a></li>
-                <li><a href="pages/get-involved.html">Get Involved</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </div>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="NeuroHope logo">
+      <span>NeuroHope</span>
+    </a>
+    <input type="checkbox" id="nav-check">
+    <label class="nav-toggle" for="nav-check" aria-label="Toggle menu"><span></span></label>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="Html/about.html">About Us</a>
+      <a href="Html/blog.html">Blog</a>
+      <a href="Html/join.html">Join Us</a>
     </nav>
+  </div>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>NeuroHope</h1>
-            <p>Empowering young people to advocate for those with neurological disorders</p>
-            <a href="pages/get-involved.html" class="cta-button">Join Our Movement</a>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="tagline">Empowering Change Through Knowledge, Advocacy, and Hope</div>
+      <p class="lead">NeuroHope is a youth-led Initiative that strives to empower the next generation to turn talk into action and create meaningful conversations around brain health. We care deeply about advocacy around increasing awareness, education, and stigma-busting around neuro and neurodevelopmental conditions like Alzheimer's, autism and ADHD.</p>
+      <a class="btn btn-primary" href="Html/join.html">Join Our Initiative</a>
+    </div>
+    <div class="hero-media">
+      <img src="assets/workshop-outdoor.jpg" alt="NeuroHope youth workshop">
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Why We Matter</h2>
+    <ul class="stat-list">
+      <li><strong>There's a gap between science and society — and we're bridging it.</strong> Over 60% of people worldwide lack access to brain health education (WHO).</li>
+      <li><strong>Youth are left out of key health conversations — we're changing that.</strong> Young people make up 40% of the world, but rarely have a voice in healthcare advocacy.</li>
+      <li><strong>Neuroscience is missing in schools — we're filling that gap.</strong> Only 11% of U.S. high schools offer neuroscience-related education (NIH).</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What We Do</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-body">
+          <h3>Educational Workshops</h3>
+          <ul>
+            <li>Lead interactive workshops on Alzheimer's, autism, ADHD</li>
+            <li>Simplify complex neuroscience topics for students</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Main Content -->
-    <main class="container">
-        <!-- Mission Section -->
-        <section class="mission">
-            <h2>Our Mission</h2>
-            <p>NeuroHope creates a pathway for young people to go from learning about neuroscience → meeting the people doing the research → conducting/engaging in research → educating others → creating community resources → advocating for change.</p>
-        </section>
-
-        <!-- Key Features -->
-        <section class="features">
-            <div class="feature-card">
-                <h3>📚 Learn</h3>
-                <p>Explore neuroscience education and understand neurological disorders</p>
-            </div>
-            <div class="feature-card">
-                <h3>🔬 Research</h3>
-                <p>Connect with researchers and engage in meaningful projects</p>
-            </div>
-            <div class="feature-card">
-                <h3>🤝 Advocate</h3>
-                <p>Build community and create resources for change</p>
-            </div>
-            <div class="feature-card">
-                <h3>💬 Connect</h3>
-                <p>Share stories and support others on their journeys</p>
-            </div>
-        </section>
-
-        <!-- Call to Action -->
-        <section class="cta-section">
-            <h2>Ready to Make a Difference?</h2>
-            <p>Whether you're a student, researcher, or someone with a personal connection to neurological disorders, there's a place for you here.</p>
-            <a href="pages/get-involved.html" class="cta-button-secondary">Learn How to Get Involved</a>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 NeuroHope. A youth-led initiative. All rights reserved.</p>
-            <p>Contact: <a href="mailto:info@neurohope.com">info@neurohope.com</a></p>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>Fundraising & Crafting</h3>
+          <ul>
+            <li>Handcraft and sell bracelets and crochet items</li>
+            <li>Donate handmade gifts to caregivers</li>
+          </ul>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <script src="js/script.js"></script>
+<footer>
+  <div class="wrap">
+    <div class="fine">NeuroHope — Since 2025</div>
+    <div>
+      <a href="Html/about.html">About Us</a>
+      <a href="Html/blog.html">Blog</a>
+      <a href="Html/join.html">Join Us</a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
